@@ -31,6 +31,10 @@ end
     new_object
   end
 
+  def doctors
+    
+  end
+
 
 
 end
