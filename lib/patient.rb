@@ -32,7 +32,9 @@ end
   end
 
   def doctors
-    
+    self.appointments.collect do |appointment|
+      appointment.doctor
+    end
   end
 
 
