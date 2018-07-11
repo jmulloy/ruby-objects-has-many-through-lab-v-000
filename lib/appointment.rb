@@ -4,10 +4,10 @@ attr_accessor :name, :appointment, :doctor
 
 @@all = []
 
-def initialize(date, appointment, doctor)
+def initialize(date, doctor, patient)
   @date = date
-  @patient = patient
   @doctor = doctor
+  @patient = patient
   self.save
   # binding.pry
 end
