@@ -30,7 +30,7 @@ end
     @appointments << new_object
     new_object
   end
-  
+
 
 
 end
