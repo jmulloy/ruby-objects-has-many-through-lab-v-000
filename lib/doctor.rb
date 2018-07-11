@@ -27,4 +27,9 @@ attr_accessor :name, :patient
   end
 
   def patients
+    self.songs.collect do |patient|
+      patient.appointment
+    end
+  end
+
 end
